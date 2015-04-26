@@ -19,7 +19,7 @@ void loop()
   if (digitalRead(boton1) == LOW){
     Serial.println("boton1");
     delay(100);
-    servo1.write(90);
+    servo1.write(125);
     delay(800);
     servo1.write(0);
   }
@@ -27,7 +27,7 @@ void loop()
   if (digitalRead(boton2) == LOW){
     Serial.println("boton2");
     delay(100);
-    servo2.write(90);
+    servo2.write(125);
     delay(800);
     servo2.write(0);
   }
