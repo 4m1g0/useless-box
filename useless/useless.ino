@@ -18,17 +18,17 @@ void loop()
 { 
   if (digitalRead(boton1) == LOW){
     Serial.println("boton1");
-    delay(100);
+    delay(300);
     servo1.write(125);
-    delay(800);
+    delay(300);
     servo1.write(0);
   }
   
   if (digitalRead(boton2) == LOW){
     Serial.println("boton2");
-    delay(100);
-    servo2.write(125);
-    delay(800);
+    delay(300);
+    servo2.write(145);
+    delay(300);
     servo2.write(0);
   }
   delay(10);
